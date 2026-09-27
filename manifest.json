@@ -1,0 +1,53 @@
+{
+  "id": "./",
+  "name": "Salary Ledger",
+  "short_name": "Salary",
+  "description": "Track your pay, income deductions, and daily expenses with receipt scanning.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "dir": "ltr",
+  "lang": "en",
+  "background_color": "#12181F",
+  "theme_color": "#12181F",
+  "categories": [
+    "finance",
+    "productivity",
+    "utilities"
+  ],
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icon-512-maskable.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Track Spending",
+      "short_name": "Spending",
+      "description": "Log daily expenses",
+      "url": "./?tab=spending",
+      "icons": [
+        {
+          "src": "icon-192.png",
+          "sizes": "192x192"
+        }
+      ]
+    }
+  ]
+}
